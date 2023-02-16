@@ -91,6 +91,9 @@ In this exercise we will create a very simple _Artificial Intelligence_. Natural
 Let's start with some obvious structure in English text: the set of characters that we write the language in. If we generate random text by sampling (choosing) random characters (`Char` in Julia), it does not look like English:
 """
 
+# ╔═╡ 02dc9871-2357-4301-ad53-b8c3f9a75e33
+# adding test code block
+
 # ╔═╡ 3206c771-495a-43a9-b707-eaeb828a8545
 rand(Char, 5)   # sample 5 random characters
 
@@ -1566,6 +1569,7 @@ version = "17.4.0+0"
 # ╟─c75856a8-1f36-4659-afb2-7edb14894ea1
 # ╟─c9a8b35d-2183-4da1-ae35-d2552020e8a8
 # ╟─6f9df800-f92d-11ea-2d49-c1aaabd2d012
+# ╠═02dc9871-2357-4301-ad53-b8c3f9a75e33
 # ╠═3206c771-495a-43a9-b707-eaeb828a8545
 # ╠═b61722cc-f98f-11ea-22ae-d755f61f78c3
 # ╟─59f2c600-2b64-4562-9426-2cfed9a864e4
